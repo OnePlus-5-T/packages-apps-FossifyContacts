@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+    <exception package="org.fossify.contacts">
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" fixed="false" />
+        <permission name="android.permission.READ_CONTACTS" fixed="false" />
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false" />
+        <permission name="android.permission.GET_ACCOUNTS" fixed="false" />
+        <permission name="android.permission.READ_SYNC_SETTINGS" fixed="false" />
+        <permission name="android.permission.CALL_PHONE" fixed="false" />
+        <permission name="android.permission.WAKE_LOCK" fixed="false" />
+    </exception>
+</exceptions>

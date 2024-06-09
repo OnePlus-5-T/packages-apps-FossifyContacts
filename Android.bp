@@ -1,0 +1,19 @@
+android_app_import {
+	name: "FossifyContacts",
+	apk: "FossifyContacts.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: true,
+	},
+	preprocessed: true,
+	overrides: ["Contacts"],
+	required: ["fossifycontacts-permissions.xml"],
+	vendor: true,
+}
+
+prebuilt_etc {
+	name: "fossifycontacts-permissions.xml",
+	src: "fossifycontacts-permissions.xml",
+	sub_dir: "default-permissions",
+	vendor: true,
+}
